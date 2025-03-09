@@ -23,4 +23,4 @@ template LessThan(n) {
     n2b.in <== in[0]+ (1<<n) - in[1];
     out <== 1-n2b.out[n];
 }
-component main = LessThan(100);
+component main = LessThan(250);
